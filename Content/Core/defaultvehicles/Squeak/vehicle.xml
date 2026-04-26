@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VehicleSaveData Id="Squeak" Character="SqueakMouse">
+	<RootPartRef InstanceOf="KittenBackPackPart" LocalInstanceId="0">
+        <Transform>
+          <Position X="0" Y="0" Z="0" />
+          <Rotation X="0" Y="0" Z="0" />
+          <Scale X="1" Y="1" Z="1" />
+        </Transform>
+        <SubPartRef InstanceOf="KittenBackPackSubPart" InstanceId="1">
+            <TankData>
+                <Mole SubstancePhaseId="CH6N2(l)">
+                    <Mass Kg="37.4446" />
+                </Mole>
+                <Mole SubstancePhaseId="N2O4(l)">
+                    <Mass Kg="59.9113" />
+                </Mole>
+            </TankData>
+		</SubPartRef>
+    </RootPartRef>  
+</VehicleSaveData>

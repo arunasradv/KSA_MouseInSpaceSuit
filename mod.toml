@@ -1,0 +1,9 @@
+# this file is the manifest definition for a mod (packed or unpacked)
+# each 'mod' needs to have one to tell the game how to deserialize
+
+# the 'id' of the mod is the folder name
+
+# the name for the mod
+name = "KittenMouseSpaceSuit"
+assets = ["CharacterAssets.xml", "vehicle.xml", "Situations.xml"]
+systems = ["EarthOnlyAndMouse.xml"]

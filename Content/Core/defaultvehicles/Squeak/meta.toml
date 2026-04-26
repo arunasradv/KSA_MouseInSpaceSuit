@@ -1,0 +1,5 @@
+name = "Squeak"
+created = 2026-04-05T00:47:47.3111633
+updated = 2026-04-05T00:47:47.3118927
+version = "v2026.4.26.4170-DEBUG"
+systems = [ "Test", ]

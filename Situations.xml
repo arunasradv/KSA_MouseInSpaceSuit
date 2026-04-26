@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+    <Situation Id="SqueakStartingSituation">
+        <Orbit>
+            <SemiMajorAxis Km="6713.1" />
+            <Inclination Degrees="28.87" />
+            <Eccentricity Value="0.0077" />
+            <LongitudeOfAscendingNode Degrees="60.48" />
+            <ArgumentOfPeriapsis Degrees="30.003" />
+            <TimeAtPeriapsis Minutes="-20" />
+        </Orbit>
+    </Situation>
+</Assets>

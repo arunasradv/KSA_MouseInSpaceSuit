@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+    <GltfFile Id="MouseGlb">
+        <Source Path="Characters/Mouse/mouse.gltf"/>
+    </GltfFile>
+    
+   <CharacterCore Id="MouseCore">
+        <BodySource Id="MouseGlb"/>
+        <LeftEyeBoneIndex Name="EyeJoint_L"/>
+        <RightEyeBoneIndex Name="EyeJoint_R"/>
+        <MaxBoneCount Value="256"/>
+        <ScleraMeshIndices Value="6"/>
+        <ScleraMeshIndices Value="7"/>
+    </CharacterCore>
+
+    <Character Id="SqueakMouse">
+        <Personality Value="Neutral"/>
+        <CharacterCore Id="MouseCore"/>
+        <CharacterTextures Id="CharacterTextures"/>
+
+        <CharacterHelmet Id="CharacterHelmetAttachment"/>
+        <CharacterVisor Id="CharacterVisorAttachment"/>
+        <CharacterMMU Id="CharacterMMUAttachment"/>
+
+        <CharacterFur Id="CharacterFur"/>
+        <CharacterExpressions Id="CharacterExpressions"/>
+        <CharacterMMUAnimations Id="CharacterMMUAnimations"/>
+        <CharacterAnimationMasks Id="CharacterAnimationMasks"/>
+        <CharacterGroundAnimations Id="CharacterGroundAnimations"/>
+
+        <AnimHelmetMask Id="KittenAnimHelmetMaskGlb"/>
+        <BlinkAnim Id="KSA_Cat_Anim_BlinkGlb"/>
+    </Character>
+</Assets>
