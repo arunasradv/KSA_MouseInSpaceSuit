@@ -2,6 +2,27 @@
 
 The mod modifies the kitten model and adds a mouse in place of the kitten head.
 The idea is that a mouse can control the astronaut suit via brain implants.
+
+# The Lore story
+Space is dangerous. The high risk to loose cute kitten astronaut is unbearable. 
+So the kittens started new program to overcome the risk. The new program's name 
+was "Mouse the cyborg". The program's purpose was to use mice as expandable astronauts. 
+The mouse is placed with a brain implant in the helmet. The spacesuit was modified and built as
+robot-spaceship without head. The mouse in the helmet was in full control of the spacesuit. 
+Many tests have been done, but one day a space suit with a mouse was not found.
+It happened after kittens brought the mice to watch the movie called "space cucumbers the invaders".
+Mice observed the kittens and saw that kittens experienced fear and horror...
+Who knows what mice were thinking when. Maybe about some kind of revenge?
+Kittens started the search mission. They decided to investigate of nearby islands. 
+The rocket with kitten called Maxi has been launched to the possible lost spacesuit location. 
+But malfunctioning computer messed the navigation and rocket crash-landed on the unknown island.
+Eventually Maxi's collar has been found on the beach. The Kittens launched the rescue mission to the island.
+And Maxi was found in a rocket  full of cucumbers.
+After this accident, new mysterious company started offering contracts to deliver cucumbers to space...
+And actually the mice created this company for delivering cucumbers to the space and increase the progress with 'cucumber project'. 
+Mice hacked the rockets or offered contracts to fly cucumbers to various locations.
+Mice probably are searching for a home planet for cucumbers, what is suitable for cucumbers to grow and mutate into cucumber like alien creature.
+Only blind (or with protective eye cover) kittens can transport the cucumbers with rockets without the issues.
                  .                                                                              
                 .                               ...                                             
               .                    .:+#%@@@@@@@@@@@@@@@@@@@+.                                   
