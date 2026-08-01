@@ -30,6 +30,9 @@ The mice hacked rockets or offered contracts to send cucumbers to various locati
 The mice were probably searching for a home planet for cucumbers, one that was suitable for them to grow 
 and mutate into cucumber-like alien creatures. 
 
+The packets from the mysterious company ("Infinite Cosmos Cucumber Logistics Solutions," or ICCLS)
+were quite large and looked like refrigerators with several sealed doors. Labels reading "Do not open!"
+were glued onto every packet door.
 However, the space missions for this company usually ended in mysterious accidents, 
 such as navigation loss, leaks, strange sounds, cut wires, flying loose cucumbers, and drilled holes.
 Only blind kittens (or kittens wearing protective eye covers) could transport cucumbers in rockets without issue.
