@@ -4,25 +4,32 @@ The mod modifies the kitten model and adds a mouse in place of the kitten head.
 The idea is that a mouse can control the astronaut suit via brain implants.
 
 # The Lore story
-Space is dangerous. The high risk to loose cute kitten astronaut is unbearable. 
-So the kittens started new program to overcome the risk. The new program's name 
-was "Mouse the cyborg". The program's purpose was to use mice as expandable astronauts. 
-The mouse is placed with a brain implant in the helmet. The spacesuit was modified and built as
-robot-spaceship without head. The mouse in the helmet was in full control of the spacesuit. 
-Many tests have been done, but one day a space suit with a mouse was not found.
-It happened after kittens brought the mice to watch the movie called "space cucumbers the invaders".
-Mice observed the kittens and saw that kittens experienced fear and horror...
-Who knows what mice were thinking when. Maybe about some kind of revenge?
-Kittens started the search mission. They decided to investigate of nearby islands. 
-The rocket with kitten called Maxi has been launched to the possible lost spacesuit location. 
-But malfunctioning computer messed the navigation and rocket crash-landed on the unknown island.
-Eventually Maxi's collar has been found on the beach. The Kittens launched the rescue mission to the island.
-And Maxi was found in a rocket  full of cucumbers.
-After this accident, new mysterious company started offering contracts to deliver cucumbers to space...
-And actually the mice created this company for delivering cucumbers to the space and increase the progress with 'cucumber project'. 
-Mice hacked the rockets or offered contracts to fly cucumbers to various locations.
-Mice probably are searching for a home planet for cucumbers, what is suitable for cucumbers to grow and mutate into cucumber like alien creature.
-Only blind (or with protective eye cover) kittens can transport the cucumbers with rockets without the issues.
+Space is dangerous. The risk of losing a cute kitten astronaut is unbearable.
+
+So the kittens started a new program to reduce that risk. The program was called "Mouse the Cyborg."
+Its purpose was to use mice as expendable astronauts. A mouse was fitted with a brain implant in its helmet.
+The spacesuit was modified and built as a robot-spaceship without a head. The mouse in the helmet had full control of the spacesuit.
+
+Many tests were conducted, but one day a spacesuit with a mouse was not found. 
+It happened after the kittens brought the mice to watch a movie called "Space Cucumbers: The Invaders." 
+The mice observed the kittens and saw that they were experiencing fear and horror...
+
+Who knows what the mice were thinking at that moment? Maybe it was some kind of revenge?
+
+The kittens started a search mission. They decided to investigate nearby islands. 
+A rocket carrying a kitten named Maxi was launched toward the possible location of the lost spacesuit.
+But a malfunctioning computer messed up the navigation, and the rocket crash-landed on an unknown island.
+
+Eventually, Maxi's collar was found on the beach. The kittens launched a rescue mission to the island. 
+Maxi was found in a rocket full of cucumbers.
+
+After this accident, a mysterious new company began offering contracts to deliver cucumbers to space. 
+In reality, the mice had created the company to deliver cucumbers to space and advance the "Cucumber Project".
+The mice hacked rockets or offered contracts to send cucumbers to various locations.
+
+The mice were probably searching for a home planet for cucumbers, one that was suitable for them to grow 
+and mutate into cucumber-like alien creatures. Only blind kittens (or kittens wearing protective eye covers)
+can transport cucumbers in rockets without issue.
                  .                                                                              
                 .                               ...                                             
               .                    .:+#%@@@@@@@@@@@@@@@@@@@+.                                   
