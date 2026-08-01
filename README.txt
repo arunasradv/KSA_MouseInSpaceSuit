@@ -28,8 +28,17 @@ In reality, the mice had created the company to deliver cucumbers to space and a
 The mice hacked rockets or offered contracts to send cucumbers to various locations.
 
 The mice were probably searching for a home planet for cucumbers, one that was suitable for them to grow 
-and mutate into cucumber-like alien creatures. Only blind kittens (or kittens wearing protective eye covers)
-can transport cucumbers in rockets without issue.
+and mutate into cucumber-like alien creatures. 
+
+However, the space missions for this company usually ended in mysterious accidents, 
+such as navigation loss, leaks, strange sounds, cut wires, flying loose cucumbers, and drilled holes.
+Only blind kittens (or kittens wearing protective eye covers) could transport cucumbers in rockets without issue.
+
+The Flight Safety Agency demanded an investigation into the accidents.
+Suspicion was raised during the cargo bay audit. In addition to cucumbers, 
+almost frozen and sleeping mice were found in the ICCLS company’s packets.
+
+The kittens started a secret investigation into ICCLS activity.
                  .                                                                              
                 .                               ...                                             
               .                    .:+#%@@@@@@@@@@@@@@@@@@@+.                                   
