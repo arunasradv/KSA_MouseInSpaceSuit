@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <System Id="Test2">
- <DisplayName Value="Earth Only And Mouse" />
+    <DisplayName Value="Earth Only And Mouse" />
+
+    <GalacticPlane>
+        <RightAscension Degrees="192.86" />
+        <Declination Degrees="27.13" />
+    </GalacticPlane>
 
     <!-- generated and cached using the 'textures summarize' in game and used for VRAM estimates -->
     <VesselTextures Size="184 MB">
@@ -22,16 +27,23 @@
         <Texture Width="8" Height="8" Count="3" Size="768 B" />
         <Texture Width="1" Height="1" Count="2" Size="8 B" />
     </UnscaledTextures>
-    
+
     <LoadFromLibrary Id="Sol"/>
 
     <LoadFromLibrary Id="Earth" Parent="Sol" HomeBody="true"/>
-
+    <!-- 
     <LoadVehicleFromLibrary Id="Squeak" Parent="Earth">
         <SituationRef InstanceOf="SqueakStartingSituation"/>
         <Body2Cce X="-1.8158" Y="-0.0083" Z="-1.2297" />
         <BodyRates X="0" Y="-0.0011657209075534262" Z="0" />
         <Color R="0.37" G="0.85" B="0.4" />
+        <SoundEvent Action="Rcs" SoundId="DefaultRcsThruster"/>
+    </LoadVehicleFromLibrary> -->
+    <LoadVehicleFromLibrary Id="Hunter" Parent="Earth">
+        <SituationRef InstanceOf="HunterStartingSituation"/>
+        <Body2Cce X="-1.8158" Y="-0.0083" Z="1.2297" />
+        <BodyRates X="0" Y="-0.0011657209075534262" Z="0" />
+        <Color R="0.37" G="0.85" B="0" />
         <SoundEvent Action="Rcs" SoundId="DefaultRcsThruster"/>
     </LoadVehicleFromLibrary>
 </System>

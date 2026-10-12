@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Assets>
     <GltfFile Id="MouseGlb">
-        <Source Path="Characters/Mouse/mouse.gltf"/>
+        <Source Path="Content/Core/Characters/Mouse/mouse.gltf"/>
     </GltfFile>
-    
-   <CharacterCore Id="MouseCore">
+
+    <CharacterCore Id="MouseCore">
         <BodySource Id="MouseGlb"/>
         <LeftEyeBoneIndex Name="EyeJoint_L"/>
         <RightEyeBoneIndex Name="EyeJoint_R"/>

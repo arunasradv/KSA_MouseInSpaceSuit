@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UniverseData>
+  <GameTime Nanos="1455671760" />
+  <CameraData>
+    <Position X="-0.3925" Y="1.3301" Z="2.261" />
+    <Rotation X="2.3462" Y="-0.1266" Z="-1.834" />
+    <CameraMode>Orbit</CameraMode>
+    <Following Id="Hunter" />
+    <TidalLocking Value="true" />
+    <MapInverted Value="false" />
+    <MapPreviouslyControlled Id="Hunter" />
+  </CameraData>
+  <System>
+    <Id Id="Test2" />
+    <Vehicle Id="Hunter" Character="HunterKitten" ActiveSequence="0" HasLaunched="true" DistantGlintUseAutoIrregularity="true" DistantGlintUsePresetSpecular="true">
+      <RootPartRef InstanceOf="KittenBackPackPart" LocalInstanceId="1" Stage="0">
+        <Transform>
+          <Position X="0" Y="0" Z="0" />
+          <Rotation X="0" Y="0" Z="0" />
+          <Scale X="1" Y="1" Z="1" />
+        </Transform>
+        <SubPartRef InstanceOf="KittenBackPackSubPart" LocalInstanceId="2" Stage="0">
+          <TankData InstanceOf="PropellantTank" LocalInstanceId="3">
+            <RoleAffinity>Thruster</RoleAffinity>
+            <Mole SubstancePhaseId="MMH(l)">
+              <Mass Kg="37.4446" />
+              <MassFraction Value="0.5" />
+            </Mole>
+            <Mole SubstancePhaseId="N2O4(l)">
+              <Mass Kg="59.9113" />
+              <MassFraction Value="0.5" />
+            </Mole>
+          </TankData>
+          <ThrusterController InstanceOf="TranslateRight" LocalInstanceId="4" ActiveInStage="true" />
+          <ThrusterController InstanceOf="TranslateLeft" LocalInstanceId="5" ActiveInStage="true" />
+          <ThrusterController InstanceOf="TranslateDown" LocalInstanceId="6" ActiveInStage="true" />
+          <ThrusterController InstanceOf="TranslateUp" LocalInstanceId="7" ActiveInStage="true" />
+          <ThrusterController InstanceOf="TranslateBackward" LocalInstanceId="8" ActiveInStage="true" />
+          <ThrusterController InstanceOf="TranslateForward" LocalInstanceId="9" ActiveInStage="true" />
+          <ThrusterController InstanceOf="PitchDownRollLeftYawRight" LocalInstanceId="10" ActiveInStage="true" />
+          <ThrusterController InstanceOf="PitchUpRollLeftYawLeft" LocalInstanceId="11" ActiveInStage="true" />
+          <ThrusterController InstanceOf="PitchDownRollRightYawLeft" LocalInstanceId="12" ActiveInStage="true" />
+          <ThrusterController InstanceOf="PitchUpRollRightYawRight" LocalInstanceId="13" ActiveInStage="true" />
+        </SubPartRef>
+      </RootPartRef>
+      <LaunchGameTime Nanos="0" />
+      <ParentBody Id="Earth" />
+      <AnalyticState>
+        <LastUpdateTime Nanos="1455671760" />
+        <PositionCci X="-5927309.2653" Y="735541.9024" Z="3043582.5393" />
+        <VelocityCci X="-1626.5592" Y="-7440.4094" Z="-1240.9093" />
+        <Body2Cce X="-1.8158" Y="-0.0079" Z="1.2313" />
+        <BodyRates X="0" Y="-0.0012" Z="0" />
+      </AnalyticState>
+      <KinematicState>
+        <LastUpdateTime Nanos="1455671760" />
+        <Situation>Freefall</Situation>
+        <PhysFrame>Cci</PhysFrame>
+        <PositionPhys X="0" Y="0" Z="0" />
+        <VelocityPhys X="0" Y="0" Z="0" />
+        <Body2Phys X="-1.6745" Y="-0.3932" Z="1.209" />
+        <BodyRates X="-0.0003" Y="-0.0004" Z="0.0011" />
+        <MotionlessTime Years="0" Months="0" Weeks="0" Days="0" Hours="0" Minutes="0" Seconds="0" />
+        <Draft Value="0" />
+      </KinematicState>
+      <KinematicMeasurements>
+        <DeltaTime Years="0" Months="0" Weeks="0" Days="0" Hours="0" Minutes="0" Seconds="0.0333" />
+        <AccelerationBody X="0" Y="0" Z="0" />
+        <AngularAccelerationBody X="0" Y="0" Z="0" />
+        <DeltaVelocityCci X="0" Y="0" Z="0" />
+      </KinematicMeasurements>
+      <FlightComputer>
+        <BurnMode>Manual</BurnMode>
+        <AttitudeMode>Manual</AttitudeMode>
+        <AttitudeFrame>EclBody</AttitudeFrame>
+        <AttitudeTrackTarget>None</AttitudeTrackTarget>
+        <CustomAttitudeTarget X="0" Y="0" Z="0" />
+        <ManualThrustMode>Direct</ManualThrustMode>
+        <AngleDeadband>0.017453292</AngleDeadband>
+        <RateLimit>0.08726646</RateLimit>
+        <RollMode>Decoupled</RollMode>
+        <RCSMode>Enabled</RCSMode>
+        <AttitudeTarget2Cci X="0" Y="0" Z="0" />
+        <AttitudeTargetRatesCci X="0" Y="0" Z="0" />
+        <LastThrusterPulseTime Nanos="-170141183460469231731687303715884105728" />
+        <DeadbandStateX>Inside</DeadbandStateX>
+        <DeadbandStateY>Inside</DeadbandStateY>
+        <DeadbandStateZ>Inside</DeadbandStateZ>
+        <ErrorAngleIntegrals X="0" Y="0" Z="0" />
+        <TotalAcceleration>0</TotalAcceleration>
+        <ManueverPlan />
+      </FlightComputer>
+      <ResourceManager />
+      <OrbitCameraView>
+        <ReferenceFrame>Orbit</ReferenceFrame>
+        <Azimuth Value="-4.83" />
+        <Elevation Value="-0.41" />
+        <DistancePower Value="2.85" />
+      </OrbitCameraView>
+      <Region>LowOrbit</Region>
+      <TargetId />
+      <TargetPartId>0</TargetPartId>
+      <ControlPartId>0</ControlPartId>
+      <ControlConnectorId />
+      <EngineOn Value="false" />
+      <EngineThrottle Value="1" />
+      <NavBallFrame>Lvlh</NavBallFrame>
+      <LightsOn Value="true" />
+      <DistantGlintShapeIrregularity>
+        <SplinePoint>
+          <Key Value="0" />
+          <Value Value="0.7071" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="5" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="10" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="15" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="20" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="25" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="30" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="35" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="40" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="45" />
+          <Value Value="1" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="50" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="55" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="60" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="65" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="70" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="75" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="80" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="85" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="90" />
+          <Value Value="0.7071" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="95" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="100" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="105" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="110" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="115" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="120" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="125" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="130" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="135" />
+          <Value Value="1" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="140" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="145" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="150" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="155" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="160" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="165" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="170" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="175" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="180" />
+          <Value Value="0.7071" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="185" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="190" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="195" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="200" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="205" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="210" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="215" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="220" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="225" />
+          <Value Value="1" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="230" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="235" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="240" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="245" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="250" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="255" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="260" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="265" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="270" />
+          <Value Value="0.7071" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="275" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="280" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="285" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="290" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="295" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="300" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="305" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="310" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="315" />
+          <Value Value="1" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="320" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="325" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="330" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="335" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="340" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="345" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="350" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="355" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="360" />
+          <Value Value="0.7071" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+      </DistantGlintShapeIrregularity>
+      <DistantGlintAutoIrregularity>
+        <SplinePoint>
+          <Key Value="0" />
+          <Value Value="0.7071" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="5" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="10" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="15" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="20" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="25" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="30" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="35" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="40" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="45" />
+          <Value Value="1" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="50" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="55" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="60" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="65" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="70" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="75" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="80" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="85" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="90" />
+          <Value Value="0.7071" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="95" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="100" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="105" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="110" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="115" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="120" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="125" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="130" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="135" />
+          <Value Value="1" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="140" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="145" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="150" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="155" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="160" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="165" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="170" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="175" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="180" />
+          <Value Value="0.7071" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="185" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="190" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="195" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="200" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="205" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="210" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="215" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="220" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="225" />
+          <Value Value="1" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="230" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="235" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="240" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="245" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="250" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="255" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="260" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="265" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="270" />
+          <Value Value="0.7071" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="275" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="280" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="285" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="290" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="295" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="300" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="305" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="310" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="315" />
+          <Value Value="1" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="320" />
+          <Value Value="0.9962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="325" />
+          <Value Value="0.9848" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="330" />
+          <Value Value="0.9659" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="335" />
+          <Value Value="0.9397" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="340" />
+          <Value Value="0.9063" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="345" />
+          <Value Value="0.866" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="350" />
+          <Value Value="0.8192" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="355" />
+          <Value Value="0.766" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="360" />
+          <Value Value="0.7071" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+      </DistantGlintAutoIrregularity>
+      <DistantGlintSpecular>
+        <SplinePoint>
+          <Key Value="0.5612" />
+          <Value Value="0.242" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="47.706" />
+          <Value Value="0.992" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="131.412" />
+          <Value Value="0.248" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="235.3229" />
+          <Value Value="0.248" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="311.3318" />
+          <Value Value="0.962" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+        <SplinePoint>
+          <Key Value="360" />
+          <Value Value="0.242" />
+          <InTangent Value="0" />
+          <OutTangent Value="0" />
+        </SplinePoint>
+      </DistantGlintSpecular>
+    </Vehicle>
+    <GroundClutter>
+      <Celestial>Earth</Celestial>
+      <Ecotype>Grass</Ecotype>
+      <GridResolution>0</GridResolution>
+    </GroundClutter>
+    <GroundClutter>
+      <Celestial>Earth</Celestial>
+      <Ecotype>Tree</Ecotype>
+      <GridResolution>0</GridResolution>
+    </GroundClutter>
+    <GroundClutter>
+      <Celestial>Earth</Celestial>
+      <Ecotype>SmallTree</Ecotype>
+      <GridResolution>0</GridResolution>
+    </GroundClutter>
+    <GroundClutter>
+      <Celestial>Earth</Celestial>
+      <Ecotype>Shrub</Ecotype>
+      <GridResolution>0</GridResolution>
+    </GroundClutter>
+  </System>
+  <KittenRoster>
+    <Kitten Name="Hunter" Character="HunterKitten" AssignedVehicleId="EVA" MissionCount="1" KIA="false">
+      <CurrentMissionStartTime Nanos="0" />
+      <TotalMissionTime />
+      <TravelledMeters M="43705.9849" />
+      <FastestSpeed M="30030.6378" />
+    </Kitten>
+    <Kitten Name="Banjo" Character="BanjoKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Polaris" Character="PolarisKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Nobelle" Character="PolarisKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Bobean" Character="HunterKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Nomir" Character="BanjoKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Coton" Character="HunterKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Nehollow" Character="BanjoKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Kepler" Character="SqueakMouse" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Dester" Character="HunterKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Ceric" Character="PolarisKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Lawood" Character="BanjoKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Gedale" Character="BanjoKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Nador" Character="BanjoKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Kaquartz" Character="SqueakMouse" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Duwick" Character="HunterKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Kabean" Character="PolarisKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Lamond" Character="BanjoKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Nelyn" Character="BanjoKitten" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+    <Kitten Name="Squeak" Character="SqueakMouse" MissionCount="0" KIA="false">
+      <TotalMissionTime />
+      <TravelledMeters M="0" />
+      <FastestSpeed M="0" />
+    </Kitten>
+  </KittenRoster>
+</UniverseData>
