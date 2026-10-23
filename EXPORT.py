@@ -7,6 +7,16 @@ mod_directory = os.path.join(user_documents_path, "My Games", "Kitten Space Agen
 mod_name = "MouseInSpaceSuit"
 mod_path = os.path.join(mod_directory, mod_name)
 
+#Copy *.png from /src/Parts/ into /MouseInSpaceSuit/Textures
+textures_directory = os.path.join("MouseInSpaceSuit",  "Textures")
+os.makedirs(textures_directory, exist_ok=True)
+os.system(f"cp -r 'src/Parts'/*.png '{textures_directory}/'")
+
+#Copy *.glb from /src/Parts/ into /MouseInSpaceSuit/Meshes
+meshes_directory = os.path.join("MouseInSpaceSuit", "Meshes")
+os.makedirs(meshes_directory, exist_ok=True)
+os.system(f"cp -r 'src/Parts'/*.glb '{meshes_directory}/'")
+
 #Delete previous mod directory if it exists
 
 if os.path.exists(mod_path):

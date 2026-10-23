@@ -9,4 +9,39 @@
 
 ## CHARACTER EDITING
 
- TBD
+### EXPORTING THE KITTEN
+    
+    (Currently export from blender fails...)
+
+    Select all in the "DeformationSystem"
+        
+    Export options:
+        - Format: glTF Separate (.gltf+.bin+textures)
+        - Keep Original
+        - Include: Selected Objects
+        - Skinning
+        - Animation: Animation Mode Actions
+
+## PARTS
+
+### BLENDER MODEL
+
+    Make blender model mesh of the part.
+
+    Check "Object Data Properties" (green upside-down trangle icon). In the field Atributes it should have "custom_normal"
+
+### TEXTURES
+
+    Make textures: mymodel_Diffuse.png, mymodel_Normal.png, mymodel_PBR.png (roughmetalao)
+
+### EXPORTING GLB
+
+    Select          All meshes
+    Include     -> "Selected Objects"
+    Transform   -> +Y Up
+    Mesh        -> "Apply Modifiers", UV's, Normals.
+    Materials   -> "No Export"
+
+    
+
+

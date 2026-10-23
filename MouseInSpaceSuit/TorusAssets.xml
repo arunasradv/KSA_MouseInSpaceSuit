@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+    <MeshAtlas Path="Meshes/Torus.glb"/>
+    <PbrMaterial Id="Torus_Material">
+        <Diffuse Path="Textures/torus_Diffuse.png" Category="Vessel"/>
+        <Normal Path="Textures/torus_Normal.png" Category="Vessel"/>
+        <AoRoughMetal Path="Textures/torus_PBR.png" Category="Vessel"/>
+    </PbrMaterial>   
+     <SubPart Id="Torus_SubPart">
+        <PartModel Id="Torus_PartModel">
+            <Mesh Id="Torus"/>
+            <Material Id="Torus_Material"/>
+        </PartModel>
+        <MeshView>
+            <Mesh Id="Torus_VM"/>
+        </MeshView>
+    </SubPart>  
+    <Part Id="LifeWheel" DisplayName="Torus">
+        <Connector>
+          <Transform>
+            <Position X="0.25" Y="0.0" Z="0.0" />
+             <Scale X="2.5" Y="2.5" Z="2.5" />
+          </Transform>
+        </Connector>
+         <Connector>
+          <Transform>
+            <Position X="-0.25" Y="0.0" Z="0.0" />
+             <Scale X="2.5" Y="2.5" Z="2.5" />
+          </Transform>
+        </Connector>
+        <SubPart Id="Torus_SubPart1" InstanceOf="Torus_SubPart">
+          <Transform>
+            <Position X="0.0" Y="0.0" Z="0.0" />
+          </Transform>
+        </SubPart>
+    </Part>
+</Assets>
