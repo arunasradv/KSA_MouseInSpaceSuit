@@ -4,6 +4,6 @@
     <EditorTag Value="Structural" />
     <EditorTag Value="Radial" />
     <EditorTag Value="NoFaceSnapping"/>
-    <Diameter M="2.5"/>
+    <Diameter M="1.0"/>
   </PartGameData>
 </Assets>

@@ -18,14 +18,14 @@
     <Part Id="LifeWheel" DisplayName="Torus">
         <Connector>
           <Transform>
-            <Position X="0.25" Y="0.0" Z="0.0" />
-             <Scale X="2.5" Y="2.5" Z="2.5" />
+            <Position X="0.15" Y="0.0" Z="0.0" />
+             <Scale X="1.0" Y="1.0" Z="1.0" />
           </Transform>
         </Connector>
          <Connector>
           <Transform>
-            <Position X="-0.25" Y="0.0" Z="0.0" />
-             <Scale X="2.5" Y="2.5" Z="2.5" />
+            <Position X="-0.15" Y="0.0" Z="0.0" />
+             <Scale X="1.0" Y="1.0" Z="1.0" />
           </Transform>
         </Connector>
         <SubPart Id="Torus_SubPart1" InstanceOf="Torus_SubPart">
