@@ -3,7 +3,13 @@
   <PartGameData Id="LifeWheel">
     <EditorTag Value="Structural" />
     <EditorTag Value="Radial" />
-    <EditorTag Value="NoFaceSnapping"/>
     <Diameter M="1.0"/>
+     <!-- 2* Pi * 0.5 * Length  == 1.579136 == 4*Pi*Pi*R*r == 4*Pi*Pi*(0.5 - 0.1)*0.1; Mass == 6.15kg-->
+    <HollowOpenCylinderMass>
+      <Material Id="Fiberglass" />
+      <Length M="0.5" />
+      <OuterRadius M="0.5" />
+      <WallThickness Mm="2" />
+    </HollowOpenCylinderMass>     
   </PartGameData>
 </Assets>
