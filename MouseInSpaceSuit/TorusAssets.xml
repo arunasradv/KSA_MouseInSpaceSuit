@@ -13,25 +13,33 @@
         </PartModel>
         <MeshView>
             <Mesh Id="Torus_VM"/>
-        </MeshView>
+        </MeshView>       
     </SubPart>  
     <Part Id="LifeWheel" DisplayName="Torus">
+        <SubPart Id="Torus_SubPart1" InstanceOf="Torus_SubPart">
+          <Transform>
+            <Position X="0.0" Y="0.0" Z="0.0" />
+          </Transform>
+        </SubPart> 
         <Connector>
           <Transform>
-            <Position X="0.15" Y="0.0" Z="0.0" />
+            <Position X="0.075" Y="0.0" Z="0.0" />
              <Scale X="1.0" Y="1.0" Z="1.0" />
           </Transform>
         </Connector>
          <Connector>
           <Transform>
-            <Position X="-0.15" Y="0.0" Z="0.0" />
+            <Position X="-0.075" Y="0.0" Z="0.0" />
              <Scale X="1.0" Y="1.0" Z="1.0" />
           </Transform>
         </Connector>
-        <SubPart Id="Torus_SubPart1" InstanceOf="Torus_SubPart">
-          <Transform>
-            <Position X="0.0" Y="0.0" Z="0.0" />
-          </Transform>
-        </SubPart>
-    </Part>
+        <Collider Id="Collider1">
+            <Cylinder Id="CylinderCollider1">
+              <LocationAsmb X="0" Y="0" Z="0" />
+              <Collider2Asmb X="-3.1416" Y="0" Z="1.5708" />
+              <LengthY M="0.15" />
+              <Radius M="0.5" />
+            </Cylinder>
+        </Collider>
+      </Part>
 </Assets>
