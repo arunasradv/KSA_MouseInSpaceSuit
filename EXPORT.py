@@ -1,5 +1,7 @@
-#The script ot export the files into mod directory.
-
+#The script ot export the files into mod directory and save files into the saves directory in Documents/Kitten Space Agency.
+#It will copy Textures and Meshes into local directory MouseInSpaceSuit, 
+# and then copy the entire MouseInSpaceSuit directory into the mod directory in Documents/Kitten Space Agency.
+#Edit *xml files in MouseInSpaceSuit directory and then use the script. 
 import os
 
 user_documents_path = os.path.expanduser("~/Documents")
@@ -7,6 +9,7 @@ mod_directory = os.path.join(user_documents_path, "My Games", "Kitten Space Agen
 mod_name = "MouseInSpaceSuit"
 mod_path = os.path.join(mod_directory, mod_name)
 
+#EXPORT FOR PARTS 
 #Copy *.png from /src/Parts/ into /MouseInSpaceSuit/Textures
 textures_directory = os.path.join("MouseInSpaceSuit",  "Textures")
 os.makedirs(textures_directory, exist_ok=True)
@@ -16,6 +19,16 @@ os.system(f"cp -r 'src/Parts'/*.png '{textures_directory}/'")
 meshes_directory = os.path.join("MouseInSpaceSuit", "Meshes")
 os.makedirs(meshes_directory, exist_ok=True)
 os.system(f"cp -r 'src/Parts'/*.glb '{meshes_directory}/'")
+
+#EXPORT FOR CHARACTERS 
+#Copy /src/Characters/Mouse/*glb into /MouseInSpaceSuit/Characters/Mouse
+character_list = ["Mouse"]
+
+for character in character_list:
+    character_directory = os.path.join("MouseInSpaceSuit", "Characters", character)
+    os.makedirs(character_directory, exist_ok=True)
+    os.system(f"cp -r 'src/Characters/{character}'/*.gltf '{character_directory}/'")
+    os.system(f"cp -r 'src/Characters/{character}'/*.bin '{character_directory}/'")
 
 #Delete previous mod directory if it exists
 

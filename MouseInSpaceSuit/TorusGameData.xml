@@ -3,10 +3,21 @@
   <PartGameData Id="LifeWheel">
     <EditorTag Value="Structural" />
     <EditorTag Value="Radial" />
+    <Connector Id="_connector2">
+      <Flags>ToSurface</Flags>
+    </Connector>
+    <Grab Id="end_left">
+      <Position X="0" Y="-0.2" Z="0" />
+      <Normal X="-1" Y="0" Z="0" />
+    </Grab>
+    <Grab Id="end_right">
+      <Position X="0" Y="0.2" Z="0" />
+      <Normal X="-1" Y="0" Z="0" />
+    </Grab>
     <Diameter M="1.0"/>
      <!-- 2* Pi * 0.5 * Length  == 1.579136 == 4*Pi*Pi*R*r == 4*Pi*Pi*(0.5 - 0.1)*0.1; Mass == 6.15kg-->
     <HollowOpenCylinderMass>
-      <Material Id="Fiberglass" />
+      <Material Id="Fiberglass(s)" />
       <Length M="0.5" />
       <OuterRadius M="0.5" />
       <WallThickness Mm="2" />

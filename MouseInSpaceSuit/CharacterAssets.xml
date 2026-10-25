@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Assets>
-    <GltfFile Id="MouseGlb">
+    <GltfFile Id="mouse">
         <Source Path="Characters/Mouse/mouse.gltf"/>
     </GltfFile>
 
     <CharacterCore Id="MouseCore">
-        <BodySource Id="MouseGlb"/>
+        <BodySource Id="mouse"/>
         <LeftEyeBoneIndex Name="EyeJoint_L"/>
         <RightEyeBoneIndex Name="EyeJoint_R"/>
         <MaxBoneCount Value="256"/>
