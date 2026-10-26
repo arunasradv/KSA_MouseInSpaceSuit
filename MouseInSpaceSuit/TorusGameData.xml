@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Assets>
-  <PartGameData Id="LifeWheel">
+  <PartGameData Id="Rescue wheel">
     <EditorTag Value="Structural" />
     <EditorTag Value="Radial" />
     <Connector Id="_connector2">
