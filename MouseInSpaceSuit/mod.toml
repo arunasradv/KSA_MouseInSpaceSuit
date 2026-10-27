@@ -5,5 +5,5 @@
 
 # the name for the mod
 name = "KittenMouseSpaceSuit"
-assets = ["CharacterAssets.xml", "vehicle.xml", "Situations.xml", "TorusAssets.xml","TorusGameData.xml"]
+assets = ["CharacterAssets.xml", "Situations.xml", "TorusAssets.xml","TorusGameData.xml"]
 systems = ["EarthOnlyAndMouse.xml"]

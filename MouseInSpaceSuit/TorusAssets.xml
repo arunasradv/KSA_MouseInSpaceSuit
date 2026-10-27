@@ -15,7 +15,7 @@
             <Mesh Id="Torus_VM"/>
         </MeshView>       
     </SubPart>  
-    <Part Id="LifeWheel" DisplayName="LifeWheel">
+    <Part Id="RescueWheel" DisplayName="Rescue wheel">
         <SubPart Id="Torus_SubPart1" InstanceOf="Torus_SubPart">
           <Transform>
             <Position X="0.0" Y="0.0" Z="0.0" />

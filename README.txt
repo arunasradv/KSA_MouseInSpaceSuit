@@ -16,6 +16,12 @@ Contracts related to the fictional story.
         - Contracts - not started.
         - Mouse voice sound - not started.
 
+# Install
+
+  Copy the MouseInSpaceSuit directory into ..Documents/Kitten Space Agency/mods
+  or 
+  Run EXPORT.py
+
 # The Lore story
 
 Space is dangerous. The risk of losing a cute kitten astronaut is unbearable.
