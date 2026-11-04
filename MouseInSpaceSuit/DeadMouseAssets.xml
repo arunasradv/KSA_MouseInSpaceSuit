@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+    <MeshAtlas Path="Meshes/DeadMouse.glb"/>
+    <PbrMaterial Id="DeadMouse_Material">
+        <Diffuse Path="Textures/mouse_Diffuse.png" Category="Vessel"/>
+        <Normal Path="Textures/mouse_Normal.png" Category="Vessel"/>
+        <AoRoughMetal Path="Textures/mouse_PBR.png" Category="Vessel"/>
+    </PbrMaterial>   
+     <SubPart Id="DeadMouse_SubPart">
+        <PartModel Id="DeadMouse_PartModel">
+            <Mesh Id="DeadMouse"/>
+            <Material Id="DeadMouse_Material"/>
+        </PartModel>
+        <MeshView>
+            <Mesh Id="DeadMouse_VM"/>
+        </MeshView>       
+    </SubPart>  
+    <Part Id="DeadMouse" DisplayName="Dead Mouse">
+        <SubPart Id="DeadMouse_SubPart1" InstanceOf="DeadMouse_SubPart">
+          <Transform>
+            <Position X="0.0" Y="0.0" Z="0.0" />
+             <Rotation Z="1.5708" />
+          </Transform>
+        </SubPart> 
+         <Connector>
+          <Transform>
+            <Position X="0.055" Y="0.0" Z="0.0" />
+            <Scale X="0.2" Y="0.2" Z="0.2" />
+          </Transform>
+        </Connector>
+        <Collider Id="Collider1">
+          <Box Id="BoxCollider1">
+            <LocationAsmb X="0" Y="0" Z="0" />
+            <Collider2Asmb X="0" Y="0" Z="0" />
+            <LengthX M="0.104" />
+            <LengthY M="0.140" />
+            <LengthZ M="0.482" />
+          </Box>
+      </Collider>
+      </Part>
+</Assets>

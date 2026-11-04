@@ -26,21 +26,16 @@
 
 ### BLENDER MODEL
 
-    Make blender model mesh of the part.
-
-    Check "Object Data Properties" (green upside-down trangle icon). In the field Atributes it should have "custom_normal"
-
-### TEXTURES
-
-    Make textures: mymodel_Diffuse.png, mymodel_Normal.png, mymodel_PBR.png (roughmetalao)
+    ***Important***: Use the same Blender version as it is stated in the gltf/glb files 
+                    ("generator":"Khronos glTF Blender I/O v4.5.48",)!
 
 ### EXPORTING GLB
 
-    Select          All meshes
-    Include     -> "Selected Objects"
-    Transform   -> +Y Up
-    Mesh        -> "Apply Modifiers", UV's, Normals.
-    Materials   -> "No Export"
+    Include     -> "Scene"
+    Materials   -> "Export", remove ".ddd" digits in material names.
+    
+
+    
 
     
 

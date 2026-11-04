@@ -6,6 +6,8 @@ If anybody want to contribute, the way you can do it is to offer help on these t
         - Mice lab module. Small chamber containing at least one mouse. It would be nice to have animated mouse inside. One small window to look inside. Or completely closed lab module with a label of mouse.
         - Cucumber. Green vegetable with some leaves and tentacles. Maybe with animation depending on radiation level.  
         - Mouse model - in progress. Small laboratory mouse, usually is white color with red eyes.
+        - Harness model for mouse in the suit. Small holder that holds mouse in place.
+        - Mouse brain chip model. An adapter with wire or antenna on top of the mouse head. 
         - Cyborg mouse - (I have a problem at the moment to export the character (low blender skill I guess...)). Need mouse model to fit inside the helmet of the kitten suit. Mouse should have brain implant attached. Mouse can have animations: Idle, Eat, Scratch...
         - Cyborg cucumber - not started. The mutaded version of cucumber placed inside the helmet with many probes.
         - Sound for mouse. Different voice sounds for different mouse. 
@@ -82,5 +84,7 @@ If anybody want to contribute, the way you can do it is to offer help on these t
 
         2026.10.12 - Added Squeak into save file kitten rooster. Fixed CharacterAssets.xml path, so it does not crash any more. The kitten model is replaced by mouse model - nose is sticking out of helmet. Need to figure out how to make model not to replace the the kitten. Add mouse and cucumber into space suit.
 
-        2026.10.23 - Added "Torus" test part (just for learning...). The mouse does not export from blender correctly. Will try to make science module with mice inside or cucumber.  
+        2026.10.23 - Added "Torus" test part (just for learning...). The mouse does not export from blender correctly. Will try to make science module with mice inside or cucumber. 
+
+        2026.11.01 - Figured out the problem exporting the kitten gltf (need to use the same blender 4.5 version as gltf.). Created Mouse model. Now need to figure out the workflow of adding mouse into suit with fixed all the animations ( for eyes and teeth, and tongue).
         
