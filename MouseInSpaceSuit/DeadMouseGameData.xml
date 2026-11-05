@@ -5,11 +5,11 @@
     <Connector Id="_connector2">
       <Flags>ToSurface</Flags>
       <Transform>            
-            <Scale X="0.3" Y="0.3" Z="0.3" />
-          </Transform>
+            <Scale X="0.1" Y="0.1" Z="0.2" />
+      </Transform>
     </Connector>   
     <SolidCuboidMass>
-      <Mass Kg="0.5"/>
+      <Mass Kg="0.2"/>
       <LocationAsmb Z="0.0"/>
       <LengthX M="0.104"/>
       <LengthY M="0.140"/>

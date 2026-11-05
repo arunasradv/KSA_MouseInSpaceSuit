@@ -24,8 +24,8 @@
         </SubPart> 
          <Connector>
           <Transform>
-            <Position X="0.055" Y="0.0" Z="0.0" />
-            <Scale X="0.2" Y="0.2" Z="0.2" />
+            <Position X="0.01" Y="0.0" Z="0.0" />
+            <Scale X="0.1" Y="0.1" Z="0.2" />
           </Transform>
         </Connector>
         <Collider Id="Collider1">
