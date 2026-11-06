@@ -87,4 +87,6 @@ If anybody want to contribute, the way you can do it is to offer help on these t
         2026.10.23 - Added "Torus" test part (just for learning...). The mouse does not export from blender correctly. Will try to make science module with mice inside or cucumber. 
 
         2026.11.01 - Figured out the problem exporting the kitten gltf (need to use the same blender 4.5 version as gltf.). Created Mouse model. Now need to figure out the workflow of adding mouse into suit with fixed all the animations ( for eyes and teeth, and tongue).
+
+        2026.11.06 - Models mesh names are important too - must be the same as in assets ie.: <Mesh Id="DeadMouse"/>. Decided to do the mouse saddle what will have two cameras in place of the kitten eyes and something with feeding in place of mouth. Because I cannot not setup the animations... So in this way I do not need to export any animations, just care of mesh.
         

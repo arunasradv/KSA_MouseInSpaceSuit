@@ -31,19 +31,5 @@
     <LoadFromLibrary Id="Sol"/>
 
     <LoadFromLibrary Id="Earth" Parent="Sol" HomeBody="true"/>
-    <!-- 
-    <LoadVehicleFromLibrary Id="Squeak" Parent="Earth">
-        <SituationRef InstanceOf="SqueakStartingSituation"/>
-        <Body2Cce X="-1.8158" Y="-0.0083" Z="-1.2297" />
-        <BodyRates X="0" Y="-0.0011657209075534262" Z="0" />
-        <Color R="0.37" G="0.85" B="0.4" />
-        <SoundEvent Action="Rcs" SoundId="DefaultRcsThruster"/>
-    </LoadVehicleFromLibrary> -->
-    <LoadVehicleFromLibrary Id="Hunter" Parent="Earth">
-        <SituationRef InstanceOf="HunterStartingSituation"/>
-        <Body2Cce X="-1.8158" Y="-0.0083" Z="1.2297" />
-        <BodyRates X="0" Y="-0.0011657209075534262" Z="0" />
-        <Color R="0.37" G="0.85" B="0" />
-        <SoundEvent Action="Rcs" SoundId="DefaultRcsThruster"/>
-    </LoadVehicleFromLibrary>
+   
 </System>
