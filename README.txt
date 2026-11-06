@@ -7,11 +7,15 @@ Contracts related to the fictional story.
 
 # Implementation status
 
-        - Rescue wheel - completed.
+        Implemented as best I can at the moment. It could be improved later.
+
+        - Rescue wheel - completed (raw textures).
         - Mice lab module - not started.
         - Cucumber - not started.
+        - Dead mouse model - completed (not rigged only mesh and primary textures).
+        - Mouse saddle in the helmet - not started.
         - Mouse model - in progress.
-        - Cyborg mouse - (I have a problem at the moment to export the character (low blender skill I guess...))
+        - Cyborg mouse - in progress.
         - Cyborg cucumber - not started.
         - Contracts - not started.
         - Mouse voice sound - not started.
