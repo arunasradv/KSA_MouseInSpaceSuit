@@ -19,7 +19,7 @@
 
 ## PARTS
 
-### #EXPORTING GLB
+### EXPORTING GLB
 
     ***Important***: Use the same Blender version as it is stated in the glb files 
                     ("generator":"Khronos glTF Blender I/O v5.2",)!

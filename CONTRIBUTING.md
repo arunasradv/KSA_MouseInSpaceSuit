@@ -6,7 +6,7 @@ If anybody want to contribute, the way you can do it is to offer help on these t
         - Mice lab module. Small chamber containing at least one mouse. It would be nice to have animated mouse inside. One small window to look inside. Or completely closed lab module with a label of mouse.
         - Cucumber. Green vegetable with some leaves and tentacles. Maybe with animation depending on radiation level.  
         - Mouse model - in progress. Small laboratory mouse, usually is white color with red eyes.
-        - Harness model for mouse in the suit. Small holder that holds mouse in place.
+        - Saddle model for mouse in the suit. Small holder that holds mouse in place.
         - Mouse brain chip model. An adapter with wire or antenna on top of the mouse head. 
         - Cyborg mouse - (I have a problem at the moment to export the character (low blender skill I guess...)). Need mouse model to fit inside the helmet of the kitten suit. Mouse should have brain implant attached. Mouse can have animations: Idle, Eat, Scratch...
         - Cyborg cucumber - not started. The mutaded version of cucumber placed inside the helmet with many probes.
