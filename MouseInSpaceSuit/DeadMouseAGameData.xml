@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+  <Part Id="DeadMouse" Modify="Patch" FaceSnapMode="PhysicsCollider">
+    <EditorTags Modify="Extend">
+      <EditorTag Ref="Structural" />  
+    </EditorTags>    
+      <InertMasses Modify="Extend">
+        <SolidCuboidMass>
+          <Mass Kg="0.2"/>
+          <LocationAsmb Z="0.0"/>
+          <LengthX M="0.104"/>
+          <LengthY M="0.140"/>
+          <LengthZ M="0.482"/>
+        </SolidCuboidMass>
+      </InertMasses>
+  </Part>
+</Assets>

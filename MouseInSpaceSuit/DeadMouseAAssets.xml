@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+    <MeshAtlas Id="DeadMouseA_MeshAtlas" Path="Meshes/DeadMouse.glb"/>
+     <Texture Id="DeadMouseA_TextureAtlas_Diffuse" Path="Textures/mouse_Diffuse.png" Category="Vessel" />
+     <Texture Id="DeadMouseA_TextureAtlas_Normal" Path="Textures/mouse_Normal.png" Category="Vessel" />
+     <Texture Id="DeadMouseA_TextureAtlas_PBR" Path="Textures/mouse_PBR.png" Category="Vessel" />
+    <PbrMaterial Id="DeadMouseA_Material">
+        <Diffuse Ref="DeadMouseA_TextureAtlas_Diffuse" />
+        <Normal Ref="DeadMouseA_TextureAtlas_Normal" />
+        <AoRoughMetal Ref="DeadMouseA_TextureAtlas_PBR" />
+    </PbrMaterial>   
+    <SubPart Id="DeadMouse_SubPart">
+        <Components>
+          <PartModel Key="DeadMouse_PartModel">
+              <Mesh Ref="DeadMouse"/>
+              <Material Ref="DeadMouseA_Material"/>
+          </PartModel>
+          <MeshView>
+              <Mesh Ref="DeadMouse_VM"/>
+          </MeshView>  
+        </Components>     
+    </SubPart>  
+    <Part Id="DeadMouse" DisplayName="Dead Mouse">
+      <SubParts>
+        <SubPart Key="DeadMouse_SubPart1" Ref="DeadMouse_SubPart">
+          <Transform>
+            <Position X="0.0" Y="0.0" Z="0.0" />
+             <Rotation Z="1.5708" />
+          </Transform>
+        </SubPart> 
+      </SubParts>
+        <Connectors>
+          <Connector>
+            <Transform>
+              <Position X="0.01" Y="0.0" Z="0.0" />
+              <Scale X="0.1" Y="0.1" Z="0.2" />
+            </Transform>
+          </Connector>
+        </Connectors>
+        <Components>         
+          <Collider Key="Collider1">
+            <Colliders>
+              <Box Key="BoxCollider1">
+                <LocationAsmb X="0" Y="0" Z="0" />
+                <Collider2Asmb X="0" Y="0" Z="0" />
+                <LengthX M="0.104" />
+                <LengthY M="0.140" />
+                <LengthZ M="0.482" />
+              </Box> 
+            </Colliders>
+          </Collider>
+      </Components>
+      </Part>
+</Assets>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+    <MeshAtlas Id="TorusA_MeshAtlas" Path="Meshes/Torus.glb"/>
+    <Texture Id="TorusA_TextureAtlas_Diffuse" Path="Textures/torus_Diffuse.png" Category="Vessel" />
+    <Texture Id="TorusA_TextureAtlas_Normal" Path="Textures/torus_Normal.png" Category="Vessel" />
+    <Texture Id="TorusA_TextureAtlas_PBR" Path="Textures/torus_PBR.png" Category="Vessel" />    
+    <PbrMaterial Id="TorusA_Material">
+        <Diffuse Ref="TorusA_TextureAtlas_Diffuse" />
+        <Normal Ref="TorusA_TextureAtlas_Normal" />
+        <AoRoughMetal Ref="TorusA_TextureAtlas_PBR" />
+    </PbrMaterial>   
+     <SubPart Id="Torus_SubPart">
+        <Components>
+          <PartModel Key="Torus_PartModel">
+              <Mesh Ref="Torus"/>
+              <Material Ref="TorusA_Material"/>
+          </PartModel>
+          <MeshView>
+              <Mesh Ref="Torus_VM"/>
+          </MeshView> 
+        </Components>      
+    </SubPart>  
+    <Part Id="RescueWheel" DisplayName="Rescue wheel">
+      <SubParts>
+        <SubPart Key="Torus_SubPart1" Ref="Torus_SubPart">
+          <Transform>
+            <Position X="0.0" Y="0.0" Z="0.0" />
+          </Transform>
+        </SubPart>
+      </SubParts>
+      <Connectors>
+         <Connector>
+          <Transform>
+            <Position X="0.075" Y="0.0" Z="0.0" />
+             <Scale X="1.0" Y="1.0" Z="1.0" />
+          </Transform>
+        </Connector>
+      </Connectors>
+      <Components>
+        <Collider Key="Collider1">
+          <Colliders>
+            <Cylinder Key="CylinderCollider1">
+              <LocationAsmb X="0" Y="0" Z="0" />
+              <Collider2Asmb X="-3.1416" Y="0" Z="1.5708" />
+              <LengthY M="0.15" />
+              <Radius M="0.5" />
+            </Cylinder>
+          </Colliders>
+        </Collider>
+      </Components>
+    </Part>
+</Assets>
