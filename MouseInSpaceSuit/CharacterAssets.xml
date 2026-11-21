@@ -16,33 +16,46 @@
         </ScleraMeshIndices>
         <HeadMeshIndices>
             <MeshIndex Value="0"/>
-            <MeshIndex Value="1"/>
-            <MeshIndex Value="2"/>
+            <MeshIndex Value="1"/>           
+            <MeshIndex Value="2"/>           
             <MeshIndex Value="3"/>
             <MeshIndex Value="5"/>
             <MeshIndex Value="6"/>
             <MeshIndex Value="7"/>
             <MeshIndex Value="8"/>
-            <MeshIndex Value="9"/>                
+            <MeshIndex Value="9"/>
         </HeadMeshIndices>
         <SuitMeshIndices>
             <MeshIndex Value="4"/>
         </SuitMeshIndices>
     </CharacterCore>
 
-    <Texture Id="XMouseKyborg_A" Path="Textures/mouse_Diffuse.png" Category="Default"/>
-    <Texture Id="XMouseKyborgAoRoughMetallic" Path="Textures/mouse_PBR.png" Category="Default"/>   
-    <Texture Id="XMouseKyborg_N" Path="Textures/mouse_Normal.png" Category="Default"/>
-    <PbrMaterial Id="XMouseKyborg">
-        <Diffuse Ref="XMouseKyborg_A"/>
-        <Normal Ref="XMouseKyborg_N"/>
-        <AoRoughMetal Ref="XMouseKyborgAoRoughMetallic"/>
+    <Texture Id="MouseKyborg_A" Path="Textures/mouse_Diffuse.png" Category="Default"/>
+    <Texture Id="MouseKyborgAoRoughMetallic" Path="Textures/mouse_PBR.png" Category="Default"/>   
+    <Texture Id="MouseKyborg_N" Path="Textures/mouse_Normal.png" Category="Default"/>
+    <PbrMaterial Id="MouseKyborg_mt">
+        <Diffuse Ref="MouseKyborg_A"/>
+        <Normal Ref="MouseKyborg_N"/>
+        <AoRoughMetal Ref="MouseKyborgAoRoughMetallic"/>
     </PbrMaterial>
+
+    <CharacterTextures Id="CharacterTextures_MouseKyborg">
+        <CharacterBodyMaterial Ref="CharacterBody"/>
+        <CharacterHeadMaterial Ref="MouseKyborg_mt"/>
+        <CharacterEyeMaterial Ref="CharacterEyeYellow"/>
+    </CharacterTextures>
+
+    <Texture Id="MouseKyborgFur" Path="Textures/MouseKyborgFur.png" Category="Default"/>
+     <CharacterFur Id="CharacterFur" Modify="Patch">
+        <FurMeshIndex Value="5"/>
+        <FurShellDepth Value="2"/>
+        <FurMaskTexture Ref="MouseKyborgFur"/>
+    </CharacterFur>
 
     <Character Id="SqueakMouse">
         <Personality Value="Neutral"/>
         <CharacterCore Ref="MouseKyborgCore"/>
-        <CharacterTextures Ref="CharacterTextures"/>
+        <CharacterTextures Ref="CharacterTextures_MouseKyborg"/>
 
         <CharacterHelmet Ref="CharacterHelmetAttachment"/>
         <CharacterVisor Ref="CharacterVisorAttachment"/>

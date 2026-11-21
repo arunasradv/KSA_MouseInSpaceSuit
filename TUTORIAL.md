@@ -54,7 +54,7 @@
     Transform: checked "+Y"
     Scene Graph: all unchecked
     Mesh: checked "Apply Modifiers", "UVs", "Normals"
-    Materials: selected "Export", "Automatic"
+    Materials: selected "ViewPort", "Automatic"
     Unused Textures & Images: all unchecked
     Shape Keys: checked "Shape Key Normals"
     Optimize Shape Keys: checked "Use Sparse Accessor if Better" 
@@ -73,12 +73,14 @@
     Extra Animations: unchecked
     Action filter: unchecked
 
+    Jaw, eye, tongue, meshes should stay in the same indexes. If not, KittyBody will use incorrect texture. 
+
 ### Exporting Kitten with added mesh
 
     Select the new mesh model 
     Add mesh model under Armature Parent
     Add vertex groups into new mesh 
-    Add armature modifier
+    Add armature modifier and set the Vertex Group in this modifier (i.e. Head_M)
     
     Select your new mesh (model:XMouseKyborg) and switch to Edit Mode (Tab).
 • Press A to select all vertices.
@@ -89,6 +91,7 @@
 
 Change export settings in Material to Materials Viewport.
 
+Check indexes of meshes in the assets and correct if they are different (ScleraMeshIndices,FurMeshIndex)
 
 # AI HELP
 
