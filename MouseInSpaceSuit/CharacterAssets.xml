@@ -52,6 +52,15 @@
         <FurMaskTexture Ref="MouseKyborgFur"/>
     </CharacterFur>
 
+    <Texture Id="Saddle_A" Path="Textures/Saddle_Diffuse.png" Category="Default"/>
+    <Texture Id="SaddleAoRoughMetallic" Path="Textures/Saddle_PBR.png" Category="Default"/>   
+    <Texture Id="Saddle_N" Path="Textures/Saddle_Normal.png" Category="Default"/>
+    <PbrMaterial Id="Saddle_mt">
+        <Diffuse Ref="Saddle_A"/>
+        <Normal Ref="Saddle_N"/>
+        <AoRoughMetal Ref="SaddleAoRoughMetallic"/>
+    </PbrMaterial>
+
     <Character Id="SqueakMouse">
         <Personality Value="Neutral"/>
         <CharacterCore Ref="MouseKyborgCore"/>

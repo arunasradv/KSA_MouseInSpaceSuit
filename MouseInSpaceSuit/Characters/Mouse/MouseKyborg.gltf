@@ -5202,47 +5202,47 @@
 		{
 			"bufferView":49,
 			"componentType":5126,
-			"count":286,
+			"count":1492,
 			"max":[
-				0.1073499545454979,
-				0.7441449165344238,
+				0.12013961374759674,
+				0.6940213441848755,
 				0.1104038804769516
 			],
 			"min":[
-				-0.1073499545454979,
-				0.5159372687339783,
-				-0.11114861816167831
+				-0.12013961374759674,
+				0.5204306840896606,
+				-0.01161147840321064
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":50,
 			"componentType":5126,
-			"count":286,
+			"count":1492,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":51,
 			"componentType":5126,
-			"count":286,
+			"count":1492,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":52,
 			"componentType":5121,
-			"count":286,
+			"count":1492,
 			"type":"VEC4"
 		},
 		{
 			"bufferView":53,
 			"componentType":5126,
-			"count":286,
+			"count":1492,
 			"type":"VEC4"
 		},
 		{
 			"bufferView":54,
 			"componentType":5123,
-			"count":1044,
+			"count":7494,
 			"type":"SCALAR"
 		},
 		{
@@ -5588,80 +5588,80 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":3432,
+			"byteLength":17904,
 			"byteOffset":658984,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":3432,
-			"byteOffset":662416,
+			"byteLength":17904,
+			"byteOffset":676888,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":2288,
-			"byteOffset":665848,
+			"byteLength":11936,
+			"byteOffset":694792,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1144,
-			"byteOffset":668136,
+			"byteLength":5968,
+			"byteOffset":706728,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":4576,
-			"byteOffset":669280,
+			"byteLength":23872,
+			"byteOffset":712696,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":2088,
-			"byteOffset":673856,
+			"byteLength":14988,
+			"byteOffset":736568,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":516,
-			"byteOffset":675944,
+			"byteOffset":751556,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":516,
-			"byteOffset":676460,
+			"byteOffset":752072,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":344,
-			"byteOffset":676976,
+			"byteOffset":752588,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":172,
-			"byteOffset":677320,
+			"byteOffset":752932,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":688,
-			"byteOffset":677492,
+			"byteOffset":753104,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":336,
-			"byteOffset":678180,
+			"byteOffset":753792,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":678516,
+			"byteLength":754128,
 			"uri":"MouseKyborg.bin"
 		}
 	]
